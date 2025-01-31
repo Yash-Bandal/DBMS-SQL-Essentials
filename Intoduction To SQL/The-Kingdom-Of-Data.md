@@ -108,7 +108,7 @@ SELECT DISTINCT Name FROM KingdomResources;
 
  ###  LIMIT
  The Wizard Oracle explained, “LIMIT allows you to get only a specified number of records, which is especially useful for large datasets."
- ```
+```sql
 SELECT Name, Value FROM KingdomResources LIMIT 5;
 ```
 This spell would give Mira the first five treasures from the kingdom’s records.
@@ -118,7 +118,7 @@ Mira needed to analyze treasures in chunks, where she could examine results in g
 
 “By using OFFSET,” the Wizard said, “you can page through large datasets in a controlled manner.”
 
-```
+```sql
 SELECT Name, Value FROM KingdomResources LIMIT 5 OFFSET 5;
 
 ```
