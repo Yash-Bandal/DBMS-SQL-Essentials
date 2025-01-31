@@ -1,4 +1,4 @@
-# Key Differences Between MySQL and MS SQL Server:
+# Key Differences Between MySQL and MS SQL Server: (MySQL - OpenSource MS Sql paid [free express edition])
 
 | Feature                        | MySQL                                  | MS SQL Server                       |
 |---------------------------------|----------------------------------------|-------------------------------------|
