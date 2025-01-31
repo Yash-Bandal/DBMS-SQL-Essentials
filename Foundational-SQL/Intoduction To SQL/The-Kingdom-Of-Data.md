@@ -124,4 +124,11 @@ SELECT Name, Value FROM KingdomResources LIMIT 5 OFFSET 5;
 ```
 This would return the next 5 treasures, starting from the sixth treasure in the records
 
+### Truncate
+The Wizard Oracle explained, “Unlike DELETE, which removes rows one by one, TRUNCATE removes all rows instantly and without logging each deletion.
+```sql
+TRUNCATE TABLE KingdomResources;
+```
+All the records in the "KingdomResources" table were cleared, 
+
 
