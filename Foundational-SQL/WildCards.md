@@ -51,9 +51,9 @@ SELECT * FROM users WHERE name LIKE '[^A-B]%';
 ✅ Matches: `"Charlie"`, `"David"` (but **not** `"Alice"` or `"Bob"`)
 
 ## ⚡ Best Practices
-✔ Use wildcards **only when necessary** as they can slow down queries. 🔥
-✔ Avoid `%` at the **start** of a pattern (`'%abc'`) as it makes indexing inefficient.
-✔ Combine wildcards with **other conditions** for optimized queries.
+- ✔ Use wildcards **only when necessary** as they can slow down queries. 🔥
+- ✔ Avoid `%` at the **start** of a pattern (`'%abc'`) as it makes indexing inefficient.
+- ✔ Combine wildcards with **other conditions** for optimized queries.
 
 ---
 
